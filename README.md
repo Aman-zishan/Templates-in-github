@@ -166,5 +166,20 @@ After you make your repository a template, anyone with access to the repository 
 3. Select **Template repository**.
 
     ![https://docs.github.com/assets/images/help/repository/template-repository-checkbox.png](https://docs.github.com/assets/images/help/repository/template-repository-checkbox.png)
+    
+    
+### **Generate new repositories with repository templates**
 
+Sharing boilerplate code across codebases is a constant pattern in software development. Bootstrapping a new project with our favorite tools and directory structures helps programmers go from idea to “Hello world!” more efficiently and with less manual configuration.
 
+Today, we’re excited to introduce repository templates to make boilerplate code management and distribution a first-class citizen on GitHub. To get started, all you need to do is mark a repository as a template, and you’ll immediately be able to use it to generate new repositories with all of the template repository’s files and folders.
+
+![https://github.blog/wp-content/uploads/2019/06/repository-template.gif?w=1024&resize=1024%2C512](https://github.blog/wp-content/uploads/2019/06/repository-template.gif?w=1024&resize=1024%2C512)
+
+Whenever you view a template repository, you’ll see a brand new “Use this template” button that enables you to get started with that codebase in seconds. Any templates you own, have access to through one of your organization memberships, or have used previously will be available from the [new repository page](http://github.com/new), too.
+
+Every template repository gets a new URL endpoint called `/generate` that allows you to distribute your template more efficiently. Writing a tutorial? Building an app boilerplate for your enterprise? Distributing a project framework? Just link your users directly to the `/generate` endpoint. All they’ll need to do is name their project and clone their new repository to get started.
+
+This is just the beginning for repository templates. We’re excited to bring more capabilities to all of our template types—repositories, issues, and pull requests—to help you spend less time repeating work so you can get back to building new things. In the meantime, [share your templates with the world](http://twitter.com/github) and [let us know](mailto:hello-product@github.com) how to make templates work better for you in the future!
+
+Source: github blog
