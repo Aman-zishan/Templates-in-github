@@ -148,3 +148,23 @@ You can create default pull request templates for your organization or user acco
 - [ ] I have read the **CONTRIBUTING** document.
 
 
+# **Creating a template repository**
+
+You can make an existing repository a template, so you and others can generate new repositories with the same directory structure, branches, and files.
+
+Anyone with admin permissions to a repository can make the repository a template.
+
+To create a template repository, you must create a repository, then make the repository a template. For more information about creating a repository, see "[Creating a new repository](https://docs.github.com/en/free-pro-team@latest/articles/creating-a-new-repository)."
+
+After you make your repository a template, anyone with access to the repository can generate a new repository with the same directory structure and files as your default branch. They can also choose to include all the other branches in your repository. For more information, see "[Creating a repository from a template](https://docs.github.com/en/free-pro-team@latest/articles/creating-a-repository-from-a-template)."
+
+1. On GitHub, navigate to the main page of the repository.
+2. Under your repository name, click  **Settings**.
+
+    ![https://docs.github.com/assets/images/help/repository/repo-actions-settings.png](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
+
+3. Select **Template repository**.
+
+    ![https://docs.github.com/assets/images/help/repository/template-repository-checkbox.png](https://docs.github.com/assets/images/help/repository/template-repository-checkbox.png)
+
+
