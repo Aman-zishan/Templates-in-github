@@ -1,4 +1,8 @@
-## Importance of documentation
+<img src="https://15daysofhack.github.io/images/tinkerhub.png" />
+
+
+  <h1 align="center">Importance of documentation and templates in github:sparkles:</h1>
+
 
 Good documentation is key to the success of any project. Making documentation accessible enables people to learn about a project; making it easy to update ensures that documentation stays relevant.
 
@@ -12,7 +16,7 @@ Two common ways to document a project are *README files* and *wikis*:
 
 It’s a good idea to at least have a README on your project, because it’s the first thing many people will read when they first find your work.
 
-source: guides.gtihub.com
+*source: guides.github.com*
 
 ## Issue Templates
 
@@ -63,4 +67,54 @@ You can create default issue templates and a default configuration file for issu
 
 11. Click **Commit changes**. Once these changes are merged into the default branch, the template will be available for contributors to use when they open new issues in the repository.
 
-Source: Github docs
+*Source: Github docs*
+
+## Pull Request Templates
+
+When you add a pull request template to your repository, project contributors will automatically see the template's contents in the pull request body.
+
+For more information, see "[About issue and pull request templates](https://docs.github.com/en/free-pro-team@latest/articles/about-issue-and-pull-request-templates)."
+
+You can create a *PULL_REQUEST_TEMPLATE/* subdirectory in any of the supported folders to contain multiple pull request templates, and use the `template` query parameter to specify the template that will fill the pull request body. For more information, see "[About automation for issues and pull requests with query parameters](https://docs.github.com/en/free-pro-team@latest/articles/about-automation-for-issues-and-pull-requests-with-query-parameters)."
+
+You can create default pull request templates for your organization or user account. For more information, see "[Creating a default community health file](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/creating-a-default-community-health-file)."
+
+### **[Adding a pull request template](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository#adding-a-pull-request-template)**
+
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, using the **Add file** drop-down, click **Create new file**.
+
+    ![https://docs.github.com/assets/images/help/repository/create_new_file.png](https://docs.github.com/assets/images/help/repository/create_new_file.png)
+
+3. In the file name field:
+    - To make your pull request template visible in the repository's root directory, name the pull request template `pull_request_template.md`.
+
+        ![https://docs.github.com/assets/images/help/repository/pr-template-file-name.png](https://docs.github.com/assets/images/help/repository/pr-template-file-name.png)
+
+    - To make your pull request template visible in the repository's `docs` directory, name the pull request template `docs/pull_request_template.md`.
+
+        ![https://docs.github.com/assets/images/help/repository/pr-template-file-name-docs.png](https://docs.github.com/assets/images/help/repository/pr-template-file-name-docs.png)
+
+    - To store your file in a hidden directory, name the pull request template `.github/pull_request_template.md`.
+
+        ![https://docs.github.com/assets/images/help/repository/pr-template-hidden-directory.png](https://docs.github.com/assets/images/help/repository/pr-template-hidden-directory.png)
+
+    - To create multiple pull request templates and use the `template` query parameter to specify a template to fill the pull request body, type *.github/PULL_REQUEST_TEMPLATE/*, then the name of your pull request template. For example, `.github/PULL_REQUEST_TEMPLATE/pull_request_template.md`. You can also store multiple pull request templates in a `PULL_REQUEST_TEMPLATE` subdirectory within the root or `docs/` directories. For more information, see "[About automation for issues and pull requests with query parameters](https://docs.github.com/en/free-pro-team@latest/articles/about-automation-for-issues-and-pull-requests-with-query-parameters)."
+
+        ![https://docs.github.com/assets/images/help/repository/pr-template-multiple-hidden-directory.png](https://docs.github.com/assets/images/help/repository/pr-template-multiple-hidden-directory.png)
+
+4. In the body of the new file, add your pull request template. This could include:
+    - A [reference to a related issue](https://docs.github.com/en/free-pro-team@latest/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests) in your repository.
+    - A description of the changes proposed in the pull request.
+    - [@mentions](https://docs.github.com/en/free-pro-team@latest/articles/basic-writing-and-formatting-syntax/#mentioning-people-and-teams) of the person or team responsible for reviewing proposed changes.
+5. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message. For more information, see "[Creating a commit with multiple co-authors](https://docs.github.com/en/free-pro-team@latest/articles/creating-a-commit-with-multiple-authors)."
+
+    ![https://docs.github.com/assets/images/help/repository/write-commit-message-quick-pull.png](https://docs.github.com/assets/images/help/repository/write-commit-message-quick-pull.png)
+
+6. Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit and then create a pull request. For more information, see "[Creating a new pull request](https://docs.github.com/en/free-pro-team@latest/articles/creating-a-pull-request)."Templates are available to collaborators when they are merged into the repository's default branch.
+
+    ![https://docs.github.com/assets/images/help/repository/choose-commit-branch.png](https://docs.github.com/assets/images/help/repository/choose-commit-branch.png)
+
+7. Click **Propose new file.**
+
+    ![https://docs.github.com/assets/images/help/repository/new-file-commit-button.png](https://docs.github.com/assets/images/help/repository/new-file-commit-button.png)
